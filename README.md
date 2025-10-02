@@ -57,14 +57,3 @@ param_grid = {
     "model__solver": ["lbfgs", "liblinear"]
 }
 
-## 📂 Proje Dosya Yapısı / Project Structure
-
-10-Model Eğitim Projem/
-├─ 1-Model Eğitimi.py
-├─ 2-Model İçin Tahmin Üretme.py
-├─ HR_Model.pkl
-├─ README.md
-├─ images/
-│ ├─ age_attrition.png
-│ ├─ monthly_income_attrition.png
-│ └─ overtime_attrition.png
