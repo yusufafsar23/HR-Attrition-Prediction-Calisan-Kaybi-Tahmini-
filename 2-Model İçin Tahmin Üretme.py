@@ -55,4 +55,4 @@ tahmin=model.predict(yeni_tahmin)
 tahmin_label = ["Çalışan Ayrılmayacak" if i==0 else "Çalışan Ayrılır" for i in tahmin]
 
 print("TAHMİN==",tahmin)
-print("Tahmin (Öder/Ödeyemez):", tahmin_label)
+print("Tahmin (ayrılır/ayrılmaz):", tahmin_label)
